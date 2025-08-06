@@ -1,7 +1,7 @@
 
 add_library(PersonDir
     Person.cpp
-    hashMap.cpp
+    
     adressBook.cpp
 )
 target_include_directories(PersonDir PUBLIC ${CMAKE_SOURCE_DIR}/src/include)
